@@ -159,9 +159,9 @@ public class Calculate{
 				try{
 					radius = Double.parseDouble(InputRadius.getText());
 					if(radius >= 0){
-						a.setRadius(radius);
-						area_of_Circle.setText(a.getArea()+"");
+						a.setRadius(radius);	
 						per_of_Circle.setText(a.getPerimeter()+"");
+						area_of_Circle.setText(a.getArea()+"");
 					}
 					else
 						JOptionPane.showMessageDialog(null, "Input error");
